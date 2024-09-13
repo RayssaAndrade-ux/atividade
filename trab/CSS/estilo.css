@@ -1,0 +1,196 @@
+body{
+    background: #ec8cc6;
+}
+p{
+    background-color: #ec8cc6;
+    color:#000000;
+    
+}
+.menu {
+    text-align: center;
+    background-color:#000000;
+    margin: 0px;
+}
+.botao {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px; /* Tamanho do botão  */
+    text-align: center; /* deixar o texto no centro  */
+    text-decoration: none; /* isso é para tirar a linha no link que aparace e outro estilos  */
+    display: inline-block; /*   */
+    font-size: 16px; /* Tamanho do texto  */
+    margin: 10px 2px; /* separação entre os botão  */
+    cursor: pointer; /* Deixa no curso no modo click  */
+    border-radius: 10px; /* Deixa o botão com bordas arredondadas  */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .teste{
+    display:flex;
+    margin-right: 200px;
+  }
+  h1{
+    color: rgb(8, 2, 2);
+
+    font-size: 50px;
+    
+}
+  .image{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+  }
+  h2{
+    background-color: #000000;
+    color:#fcfcfc;
+    text-align: center;
+    margin-top: 0px;
+
+  }
+.bemvindo2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 0px;
+}
+.emoji{
+  margin-left: 530px;
+}
+
+  .container {
+    display: flex;
+    position: relative;
+   
+  }
+  .container p {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  .container h3{
+
+    background-color: #ec8cc6;
+    color:#000000;
+    margin-top: 100px;
+   
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+}
+
+.imagem-esquerda, .imagem-direita {
+    width: 50%;
+}
+
+.texto {
+    text-align: center;
+}
+
+.containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ec8cc6; /* Fundo preto */
+}
+
+.image-containerr {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 10px; /* Reduzi a margem para menos espaço */
+}
+
+.image-containerr img {
+  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+  
+}
+
+.image-containerr p {
+  color: rgb(0, 0, 0); /* Texto branco */
+  ;
+}
+
+.imeige {
+  display: flex; /* Transforma o container em um flex container */
+  justify-content: space-between; /* Distribui os itens com espaço entre eles */
+}
+h3{
+  background-color: #e03b9e;
+}
+
+.containerrr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerrr img {
+  width: 25%;
+  margin: 10px;
+}
+td{
+  color:rgb(123, 8, 180);
+  text-align:center ;
+
+}
+th{
+  color:#4400ff
+}
+
+
+h4{
+  color:#5a1919;
+  background-color: rgb(241, 82, 175);
+}
+#family{
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  height:300px;
+}
+h5{
+  text-align: center;
+  
+}
+table, td, th{
+  border: 2px solid #020001;
+  text-align: left;
+}
+table{
+  border-collapse:collapse;
+  width: 100%
+
+}
+td, th{
+  padding: 15px;
+  font-size: 20px;
+}
+tr:hover{
+  background: #fdf8fc;
+}
+th{
+  background-color: #ee3a8e;
+  color: white
+}
+#alongar {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+
+  height: 200px;
+}
